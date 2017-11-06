@@ -30,6 +30,7 @@ type TimeEntry struct {
 	SpentOn   string `json:"created_on"`
 	CreatedOn string `json:"created_on"`
 	UpdatedOn string `json:"updated_on"`
+	Comments string `json:"comments"`
 }
 
 func (c *client) TimeEntries(projectId int) ([]TimeEntry, error) {
