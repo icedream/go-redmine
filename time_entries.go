@@ -30,6 +30,7 @@ type TimeEntry struct {
 	SpentOn      string         `json:"spent_on"`
 	CreatedOn    string         `json:"created_on"`
 	UpdatedOn    string         `json:"updated_on"`
+	Comments     string         `json:"comments"`
 	CustomFields []*CustomField `json:"custom_fields,omitempty"`
 }
 
